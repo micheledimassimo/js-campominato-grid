@@ -8,10 +8,31 @@ img {
     width: 80px;
  }
  main {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
     background-color: #7FFFD4;
  }
 
  footer {
-    height: 50px;
+    height: 40px;
+ }
+ .my-container {
+   width: 1000px;
+   margin: 0 auto;
+ }
+#grid-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+ .grid-box {
+   width: 100px;
+   height: 100px;
+   background-color: lightblue;
+   border: 1px solid blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .change-color {
+   background-color: lightcoral;
  }
